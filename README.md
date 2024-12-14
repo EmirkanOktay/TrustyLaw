@@ -1,6 +1,5 @@
 # TrustyLaw
 
-![TrustyLaw Banner](https://trusty-law.vercel.app/banner.png) *(Replace with actual banner image if available)*
 
 TrustyLaw is a modern legal consultancy website aimed at simplifying access to legal services. Built with a focus on user-friendly design and seamless navigation, it serves as a digital bridge between clients and trusted legal professionals.
 
