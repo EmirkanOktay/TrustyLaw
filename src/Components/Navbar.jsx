@@ -38,7 +38,8 @@ function Navbar(props) {
             <Divider />
             <List>
                 {navItems.map((item) => (
-                    <ListItem key={item} disablePadding>
+                    <ListItem key={item} disablePadding onClick={() => navigate(`/${item.replace(/\s+/g, '-').toLowerCase()}`)}
+                    >
                         <ListItemButton sx={{
                             display: 'flex',
                             justifyContent: 'center',
@@ -55,6 +56,7 @@ function Navbar(props) {
                                 }}
                             >
                                 <ListItemText primary={item} />
+
                             </Box>
                         </ListItemButton>
                     </ListItem>
