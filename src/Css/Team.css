@@ -1,0 +1,44 @@
+.team-box {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.team-box .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.team-box:hover .image img {
+    transform: scale(1.1);
+    opacity: 0.8;
+    background: rgba(227, 153, 14, 0.9);
+}
+
+.team-box .image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(227, 153, 14, 0.9);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.team-box:hover .image::before {
+    opacity: 1;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.role {
+    margin: 10px 0;
+    color: #333;
+    transition: color 0.3s ease;
+}

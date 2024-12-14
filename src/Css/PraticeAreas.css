@@ -1,0 +1,36 @@
+.pratice-areas-head {
+    width: 100%;
+}
+
+.box {
+    margin-right: 20px;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    border-bottom: 5 px solid rgba(227, 153, 14, 0.9);
+    transition: transform 1s ease, background-color 1s ease;
+}
+
+.box p {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box .link {
+    color: rgba(227, 153, 14, 0.9);
+    cursor: pointer;
+    padding: 5px;
+    background-color: #f9f9f9;
+    font-size: 1.5rem;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    background-color: rgba(227, 153, 14, 0.9);
+    color: white !important;
+
+    .icon {
+        color: white;
+    }
+
+}

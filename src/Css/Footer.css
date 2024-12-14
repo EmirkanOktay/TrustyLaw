@@ -1,0 +1,15 @@
+.icon-footer {
+    transition: 0.3s;
+}
+
+.icon-footer:hover {
+    scale: 1.15;
+}
+
+.quick-links {
+    cursor: pointer;
+}
+
+.quick-links:hover {
+    color: rgba(227, 153, 14, 0.9);
+}
